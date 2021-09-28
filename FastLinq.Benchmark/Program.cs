@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BenchmarkDotNet.Running;
+using DetailResearchOfLinq.Benchmark;
+using DetailResearchOfLinq.Benchmark.Sandbox;
 
 namespace FastLinq.Benchmark
 {
@@ -6,7 +8,19 @@ namespace FastLinq.Benchmark
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var switcher = new BenchmarkSwitcher(new[]
+            {
+                typeof(AggregateBenchmark),
+                typeof(AllBenchmark),
+                typeof(AnyBenchmark),
+                typeof(ContainsBenchmark),
+                typeof(CountBenchmark),
+                typeof(FirstBenchmark),
+                typeof(FirstOrDefaultBenchmark),
+                typeof(LinqVsPureLogicBenchmark),
+                typeof(SequenceEqualBenchmark),
+            });
+            switcher.Run(args);
         }
     }
 }
