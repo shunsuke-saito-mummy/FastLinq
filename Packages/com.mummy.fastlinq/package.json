@@ -1,0 +1,12 @@
+{
+    "name": "com.mummy.fastlinq",
+    "version": "1.0.0",
+    "displayName": "FastLinq",
+    "description": "A LINQ extension library which improves performance",
+    "unity": "2020.3",
+    "dependencies": {},
+    "author": {
+        "name": "mummy",
+        "url": "https://github.com/shunsuke-saito-mummy"
+    }
+}
