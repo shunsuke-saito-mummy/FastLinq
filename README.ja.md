@@ -1,4 +1,5 @@
 # FastLinq
+![FastLinq](https://socialify.git.ci/shunsuke-saito-mummy/FastLinq/image?description=1&descriptionEditable=Improves%20linq%20performance%20in%20no%20time&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
 
 [English](README.md)
 
