@@ -16,7 +16,17 @@ FastLinq is a small library that improves the performance of some methods of Sys
  - Fully supported in Unity 2020.3 and later
 
 # Installation
-Add git URL `https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq` from UPM.
+Add git URL from UPM.
+
+```
+https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq
+```
+
+or add to manifest.json
+
+```
+"com.mummy.fastlinq": "https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq"
+```
  
 # Limitations
  - This project is currently experimental and breaking changes may be made.

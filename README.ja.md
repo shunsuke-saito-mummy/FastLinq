@@ -16,7 +16,17 @@ FastLinqはSystem.Linqの一部メソッドのパフォーマンスを向上さ�
 - Unity 2020.3以降で完全にサポートされます。
 
 # インストール方法
-Package Managerから次のGit URLを追加してください: `https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq`
+Package Managerから次のGit URLを追加してください。
+
+```
+https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq
+```
+
+もしくはmanifest.jsonに次の一行を追記してください。
+
+```
+"com.mummy.fastlinq": "https://github.com/shunsuke-saito-mummy/FastLinq.git?path=/Packages/com.mummy.fastlinq"
+```
  
 # 制限事項
 - このプロジェクトは現在Experimentalで、破壊的変更が加えられる可能性があります。
